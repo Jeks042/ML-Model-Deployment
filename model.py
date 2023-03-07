@@ -18,6 +18,7 @@
     "# 1.0 Import Libraries\n",
     "\n",
     "import pandas as pd\n",
+    "import numpy as np\n"
     "from sklearn.ensemble import RandomForestClassifier\n",
     "from sklearn.model_selection import train_test_split\n",
     "from sklearn.metrics import accuracy_score\n",
