@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Iris Flower Predictor - Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <h1>Iris Flower Predictor - Result</h1>
+    <p>You entered the following values:</p>
+    <ul>
+      <li>Sepal Length: {{ sepal_length }}</li>
+      <li>Sepal Width: {{ sepal_width }}</li>
+      <li>Petal Length: {{ petal_length }}</li>
+      <li>Petal Width: {{ petal_width }}</li>
+    </ul>
+    <p>The predicted species is: {{ species }}</p>
+  </body>
+</html>
