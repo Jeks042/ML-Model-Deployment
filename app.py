@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.9
+
 import pickle
 from flask import Flask, render_template, request, jsonify
 
