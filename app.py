@@ -1,7 +1,7 @@
 #!/usr/bin/env python3.9
 
 import pickle
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request
 
 # Load the model
 with open('iris_model.pkl', 'rb') as file:
